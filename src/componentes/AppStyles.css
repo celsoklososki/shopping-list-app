@@ -1,0 +1,48 @@
+.Form{
+    margin: 10px auto;
+    border-radius: 0.5rem;
+}
+#shopping-list-form input{
+    background-color: #354F60;
+    border:0;
+    width: 400px;
+    height: 50px;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 0.5rem;
+    color: #fff
+}
+#shopping-list-form input::placeholder{
+    color: rgba(206, 206, 206, 0.589);
+}
+#shopping-list-form input:focus,
+#shopping-list-form button:focus{
+    outline: none;
+}
+#shopping-list-form button{
+    margin: 20px;
+    height: 70px;
+    border: 0;
+    border-radius: 0.5rem;
+    background-color: #FFC501;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#container{
+    text-transform: capitalize;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    width: 45%;
+    background-color: #BC0E4C;
+    color: #fff;
+    border-radius: 0.5rem;
+    padding: 10px;
+}
+.icons{
+    cursor: pointer;
+}
